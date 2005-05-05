@@ -1,11 +1,11 @@
 Summary:	Backgroud Changer plugin for gkrellm
 Summary(pl):	Plugin gkrellm umo¿liwiaj±cy automatyczn± zmianê t³a pulpitu
-Name:		gkrellmbgchg2
+Name:		gkrellm-bgchg
 Version:	0.1.4
 Release:	1
 License:	GPL
 Group:		X11/Applications
-Source0:	http://www.bender-suhl.de/stefan/comp/sources/%{name}-%{version}.tar.gz
+Source0:	http://www.bender-suhl.de/stefan/comp/sources/gkrellmbgchg2-%{version}.tar.gz
 # Source0-md5:	4a71cac64f05c578d05af7e19446320a
 URL:		http://www.bender-suhl.de/stefan/english/comp/gkrellmbgchg.html
 BuildRequires:	gkrellm-devel >= 2.0
@@ -25,7 +25,7 @@ GKrellMBgChg to plugin do GKrellMa, który cyklicznie zmienia t³o
 pulpitu.
 
 %prep
-%setup -q
+%setup -q -n gkrellmbgchg2-%{version}
 
 %build
 # typo - two different variables for optflags
