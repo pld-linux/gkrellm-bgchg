@@ -32,13 +32,12 @@ klikniêcie na panelu albo "przytrzymanie" obrazka kó³kiem myszy.
 # typo - two different variables for optflags
 %{__make} \
 	CC="%{__cc}" \
-	DBGFLAGS="%{rpmcflags}" \
-	DGBFLAGS="%{rpmcflags}"
+	CFLAGS="%{rpmcflags} -Wall -fPIC \$(GTK_INCLUDE) \$(GKRELLM_INCLUDE)"
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
-install -D gkrellmbgchg.so  $RPM_BUILD_ROOT%{_libdir}/gkrellm2/plugins/gkrellmbgchg.so
+install -D gkrellmbgchg.so $RPM_BUILD_ROOT%{_libdir}/gkrellm2/plugins/gkrellmbgchg.so
 
 %clean
 rm -rf $RPM_BUILD_ROOT
