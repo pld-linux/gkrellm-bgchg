@@ -29,7 +29,6 @@ klikniêcie na panelu albo "przytrzymanie" obrazka kó³kiem myszy.
 %setup -q -n gkrellmbgchg2-%{version}
 
 %build
-# typo - two different variables for optflags
 %{__make} \
 	CC="%{__cc}" \
 	CFLAGS="%{rpmcflags} -Wall -fPIC \$(GTK_INCLUDE) \$(GKRELLM_INCLUDE)"
