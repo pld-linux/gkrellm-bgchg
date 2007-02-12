@@ -1,5 +1,5 @@
 Summary:	Backgroud Changer plugin for gkrellm
-Summary(pl):	Wtyczka gkrellm umo¿liwiaj±ca automatyczn± zmianê t³a pulpitu
+Summary(pl.UTF-8):   Wtyczka gkrellm umoÅ¼liwiajÄ…ca automatycznÄ… zmianÄ™ tÅ‚a pulpitu
 Name:		gkrellm-bgchg
 Version:	0.1.7
 Release:	1
@@ -20,10 +20,10 @@ desktops background image. It is also possible to force an image
 update by clicking on the panel or to "hold" the image with the mouse
 wheel.
 
-%description -l pl
-GKrellMBgChg to wtyczka do GKrellMa, która cyklicznie zmienia t³o
-pulpitu. Umo¿liwia tak¿e wymuszenie uaktualnienia obrazka przez
-klikniêcie na panelu albo "przytrzymanie" obrazka kó³kiem myszy.
+%description -l pl.UTF-8
+GKrellMBgChg to wtyczka do GKrellMa, ktÃ³ra cyklicznie zmienia tÅ‚o
+pulpitu. UmoÅ¼liwia takÅ¼e wymuszenie uaktualnienia obrazka przez
+klikniÄ™cie na panelu albo "przytrzymanie" obrazka kÃ³Å‚kiem myszy.
 
 %prep
 %setup -q -n gkrellmbgchg2-%{version}
