@@ -1,5 +1,5 @@
 Summary:	Backgroud Changer plugin for gkrellm
-Summary(pl.UTF-8):   Wtyczka gkrellm umożliwiająca automatyczną zmianę tła pulpitu
+Summary(pl.UTF-8):	Wtyczka gkrellm umożliwiająca automatyczną zmianę tła pulpitu
 Name:		gkrellm-bgchg
 Version:	0.1.7
 Release:	1
